@@ -6,5 +6,22 @@ import { Component } from '@angular/core';
   styleUrls: ['./xyz.component.css']
 })
 export class XyzComponent {
+userData = {
+
+name: '',
+lastname: '',
+email: '',
+
+  
+ 
+
+};
+
+onSubmit(){
+
+console.log(this.userData);
+
+}
+
 
 }

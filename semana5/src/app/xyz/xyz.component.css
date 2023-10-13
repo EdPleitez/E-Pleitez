@@ -1,8 +1,9 @@
 
-
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
 
 .prueba{
 
 text-align: center;
-
+font-size : 24pt;
+color: blue;
 }
